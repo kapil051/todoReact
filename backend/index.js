@@ -22,7 +22,7 @@ const  { Todo }= require("./db");
 
                    await Todo.create({
                         title:todo.title,
-                        description:todo.description,
+                          description:todo.description,
                            completed:todo.completed,
                    })
                    
